@@ -239,7 +239,65 @@ main{
    }
 }
 
-
+.sec-0{
+    padding: 50px 0;
+    max-width: 1400px;
+}
+.pic-text{
+    text-align: center;
+    padding: 40px 0;
+}
+.pic-1{
+    display: flex;
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    padding-right: 573px;
+    gap: 30px;
+    padding-bottom: 30px;
+    justify-content: space-between;
+}
+.pic-2{
+    display: flex;
+    justify-content: space-between;
+    height: 286px;
+    padding-bottom: 30px;
+}
+.img-1{
+    width: 374px;
+    height: 286px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    padding-left: 100px;
+}
+.img-2{
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+}
+.img-3{
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    padding-right: 80px;
+}
+.pic-3{
+    display: flex;
+    align-items: center;
+}
+.img-4{
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+    padding-left: 90px;
+}
+.img-5{
+    width: 700px;
+    height: 300px;
+    flex-shrink: 0;
+    padding-right: 80px;
+    
+}
 
 .why-text .text, .para {
     text-align: center;
@@ -667,5 +725,62 @@ main{
         height: 24px;
         flex-shrink: 0;
     }
-
+}
+.sec-4{
+    display: flex;
+    max-width: 1400px;
+    padding: 70px 0;
+}
+.video-text h1{
+    width: 448px;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 60px;
+    padding-bottom: 15px;
+}
+.video-text p{
+    width: 532px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #5A5A5D;
+    padding-bottom: 15px;
+}
+.video-text li h5{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px; /* 162.5% */
+    width: 518px;
+    padding-bottom: 15px;
+}
+.video{
+    flex-shrink: 0;
+    border-radius: 16px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+@media screen and (max-width:600px) {
+    .sec-4{
+        flex-direction: column;
+        padding: 10px 0;
+        width: 335px;
+        height: 835px;
+    }
+    .video-text h1{
+        width: 348px;
+        font-size: 25px;
+    }
+    .video-text p{
+        width: 335px;
+        font-size: 14px;
+    }
+    .video-text li h5{
+        width: 335px;
+    }
+    .video{
+        width: 335px;
+        height: 200px;
+        max-width: 335px;
+        flex-shrink: 0;
+    }
 }
